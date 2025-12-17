@@ -1,7 +1,13 @@
 
 import java.util.Scanner;
 
-class HelpfulMaths {
+public class HelpfulMath {
+                public static void main(String[] args) {
+                                Scanner sc = new Scanner(System.in);
+                                String s = sc.nextLine();
+                                helpfulMaths(s);
+                }
+
                 static void helpfulMaths(String s) {
                                 String[] nums = s.split("\\+");
                                 int n = nums.length;
@@ -19,8 +25,5 @@ class HelpfulMaths {
                                                 res += nums[i] + "+";
                                 }
                                 System.out.println(res.substring(0, res.length() - 1));
-                }
-
-                public static void main(String[] args) {
                 }
 }

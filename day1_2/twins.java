@@ -1,12 +1,12 @@
 
 import java.util.Arrays;
-
-public class twins {
+import java.util.Scanner;
+public class Twins {
                 static int twins(int num, String values) {
-                                String[] coinsStr = values.split("\\s");
-                                int[] coins = new int[coinsStr.length];
+                                String[] coinsStr = values.split("\\s+");
+                                int[] coins = new int[num];
                                 int sum = 0;
-                                for (int i = 0; i < coinsStr.length; i++) {
+                                for (int i = 0; i < num; i++) {
                                                 coins[i] = Integer.parseInt(coinsStr[i]);
                                                 sum += coins[i];
                                 }
@@ -26,6 +26,10 @@ public class twins {
                 }
 
                 public static void main(String[] args) {
-                                System.out.println(twins(5, "4 4 5 2 3"));
+                                Scanner sc = new Scanner(System.in);
+                                int n= sc.nextInt();
+                                sc.nextLine();
+                                String s = sc.nextLine();
+                                System.out.println(twins(n, s));
                 }
 }
