@@ -1,0 +1,6 @@
+- [Helpful Maths](https://codeforces.com/contest/339/submission/353887040)
+- [Twins](https://codeforces.com/contest/160/submission/353889170)
+- [TwoSum](https://leetcode.com/submissions/detail/1858039193/)
+- [Contains Duplicate](https://leetcode.com/submissions/detail/1858035865/)
+- [Height Checker](https://leetcode.com/submissions/detail/1858022278/)
+- [Sort an Array](https://leetcode.com/submissions/detail/1858010440/)
